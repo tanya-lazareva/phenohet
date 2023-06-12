@@ -30,7 +30,7 @@ The next step involved characterizing genes associated with two or more monogeni
 
 In the [3_Genes2Diseases.ipynb](https://github.com/tanya-lazareva/phenohet/blob/main/3_Genes2Diseases.ipynb) a statistical analysis is conducted to investigate the impact of causal variant localization and variant type on the determination of phenotype associated with genes linked to exactly two monogenic disorders.
 
-## Citation
+## Citing
 
 
 
