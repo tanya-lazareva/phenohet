@@ -24,11 +24,11 @@ Rscript requirements.R
 ## Description
 To anlyse the impact of genetic factors on heterogenous gene-disease relationship the data from [NCBI ClinVar](https://www.ncbi.nlm.nih.gov/clinvar/) and [Human Phenotype Ontology (HPO)](HPO.jax.org/) was collected. 
 
-The [DataParser.ipynb](https://github.com/tanya-lazareva/phenohet/blob/main/DataParser.ipynb) collects pathogenic and likely pathogenic genetic variants annotated to OMIM diseases from NCBI ClinVar,  as well as gene-monogenic disorder associations from Human Phenotype Ontology (HPO) Annotations. All collected data is merged for further analysis.
+The [DataParser.ipynb](https://github.com/tanya-lazareva/phenohet/blob/main/DataParser.ipynb) script gathers pathogenic and likely pathogenic genetic variants for OMIM diseases from NCBI ClinVar, as well as associations between genes and monogenic disorders from  Human Phenotype Ontology (HPO) Annotations. All the collected data is then merged for further analysis.
 
-The next step involved characterizing genes associated with two or more monogenic diseases using various metrics, as outlined in the [GenesMultipleDiseases.ipynb](https://github.com/tanya-lazareva/phenohet/blob/main/GenesMultipleDiseases.ipynb) notebook.
+In the next step, the [GenesMultipleDiseases.ipynb](https://github.com/tanya-lazareva/phenohet/blob/main/GenesMultipleDiseases.ipynb) script characterizes genes that are associated with two or more monogenic diseases using contraint metrics, GTEx data,HPO terms and enrichment in biological pathways.
 
-In the [Genes2Diseases.ipynb](https://github.com/tanya-lazareva/phenohet/blob/main/Genes2Diseases.ipynb) a statistical analysis is conducted to investigate the impact of causal variant localization and variant type on the determination of phenotype associated with genes linked to exactly two monogenic disorders.
+[Genes2Diseases.ipynb](https://github.com/tanya-lazareva/phenohet/blob/main/Genes2Diseases.ipynb) -  statistical analysis of the impact of causal variant localization and variant type on the determination of phenotype associated with genes linked to exactly two monogenic disorders.
 
 ## Citing
 
